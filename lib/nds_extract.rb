@@ -94,7 +94,7 @@ def gross_per_studio(collection)
     end
     puts studios[i]
     puts sum
-    final_hash = {studios[i] => sum}
+    final_hash += {studios[i] => sum}
     i += 1
     sum = 0
   end  
