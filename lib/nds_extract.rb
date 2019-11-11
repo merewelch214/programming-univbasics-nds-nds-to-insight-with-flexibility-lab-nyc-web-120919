@@ -97,7 +97,7 @@ def gross_per_studio(collection)
     i += 1
     sum = 0
   end  
-  puts final_hash
+  final_hash
 end
 
 def movies_with_directors_set(source)
